@@ -20,6 +20,8 @@ campuses.forEach(function(collegeCampus) {
     //write a code to mark each campus
     let markerText = `${collegeCampus.name}<br><a href="${collegeCampus.website}">Website</a>`
     L.marker(collegeCampus.coordinates).bindPopup(markerText).addTo(map)
+
+    
     
 });
 
